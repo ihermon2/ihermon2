@@ -67,15 +67,6 @@ Postgres/Supabase data layer — built with anonymized/synthetic data.
 
 ---
 
-### Education & credentials
-
-- 🎓 **B.Sc. Telematics Engineering** — University of Valencia
-  *(Erasmus year at Warsaw University of Technology)*
-- 📜 **Cisco CCNA** — Certified Network Associate
-- 🗣️ **Languages:** Spanish (native) · English (C1)〔· add others if applicable〕
-
----
-
 ### Connect
 
 [![Email](https://img.shields.io/badge/Email-ihermonbusiness@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:ihermonbusiness@gmail.com)
