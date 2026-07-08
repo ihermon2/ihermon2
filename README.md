@@ -33,6 +33,8 @@ day to day.
 **Data & Backend**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat&logo=supabase&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-025E8C?style=flat&logo=databricks&logoColor=white)
@@ -47,17 +49,22 @@ day to day.
 
 ### Featured projects
 
-**🧬 Biological Age Clocks from Clinical Biomarkers**
-B.Sc. thesis — machine learning models that estimate biological age from clinical
-biomarkers (HRS dataset), comparing three modelling paradigms. Applied ML on real
-health data, from feature engineering to model evaluation.
-→ 〔link to repo〕
+**🧬 [Biological Age Clocks from Clinical Biomarkers](https://github.com/ihermon2/biological-age-clocks)**
+Machine-learning models that estimate biological age from clinical blood biomarkers
+(HRS dataset) and validate the resulting *age gap* against real mortality. Compares three
+modelling paradigms — blood-only, multidomain, and a PhenoAge-style clock — end to end,
+from data ingestion through survival analysis and SHAP interpretation.
 
-**🕸️ Idealista Web Scraping Pipeline**
-Automated data-collection pipeline dealing with real-world anti-bot protection
-(session persistence, browser fingerprint hardening). A practical study in resilient,
-production-grade scraping.
-→ 〔link to repo〕
+**🧠 [Mental Disorder Classifier — ML → ONNX → browser](https://github.com/ihermon2/mental-disorder-classifier)**
+End-to-end ML lifecycle: trains a classifier on a symptom questionnaire, exports it to
+**ONNX**, and runs inference **fully client-side in the browser** with ONNX Runtime Web —
+no server, no API.
+
+**🕸️ OctopusHouse — Multi-Portal Real-Estate Scraper** 🔒 *private*
+A property aggregator that scrapes four Spanish portals simultaneously, each with its own
+anti-bot strategy (Chrome DevTools Protocol automation, headless captcha handling, plain
+HTTP), behind a **FastAPI + Server-Sent Events** backend that streams results live onto a
+Leaflet map. *Private repository — available on request.*
 
 **🤖 Multi-Channel Conversational AI (architecture demo)**
 Reference architecture for a lead-conversion AI system: an LLM agent handling
